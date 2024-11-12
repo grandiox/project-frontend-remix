@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Exponer el puerto para el servidor Remix
-EXPOSE 3000
+EXPOSE 8080
 
 # Ejecutar el servidor Remix
 CMD ["npm", "run", "start"]
